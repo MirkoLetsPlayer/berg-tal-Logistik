@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black; /* Hintergrund in schwarz */
+  color: orange;      /* Standardschrift in orange */
+}
+
+header {
+  background-color: #111; /* dunkler Hintergrund */
+  color: orange;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+nav {
+  background: #222; /* dunkleres Grau/Schwarz für Navigation */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  background: #1a1a1a; /* dunkler Hintergrund für Lesbarkeit */
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.2); /* oranger Schimmer */
+}
+
+h1, h2 {
+  color: orange;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+.discord {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.discord a {
+  background: #7289da;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  background: #111;
+  color: orange;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
